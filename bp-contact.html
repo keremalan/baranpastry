@@ -1,0 +1,376 @@
+<style>
+.flex {
+    display: flex;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-banner {
+    width: 100%;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+.breadcrumb-content {
+    display: none !important;
+}
+
+#breadcrumbs {
+    display: none !important;
+}
+
+.contentbox-header {
+    display: none !important;
+}
+
+.contact-box-image {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-box-container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 72px;
+}
+
+.contact-box {
+    padding-top: 58px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.contact-box {
+    display:flex;
+    width: 45%;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.cb-right {
+    padding: 60px 64px;
+    background-color: #FFE8D5;
+}
+
+.contact-box-title {
+    display: flex;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.contact-box-text {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 24px;
+}
+
+.contact-box-form-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact-box-form-input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 24px;
+    padding: 0 12px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.contact-box-form-submit {
+    height: 54px;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact-box-form-input::placeholder {
+    opacity: 0.4;
+}
+
+.contact-box-form-submit {
+    background-color: #FD7E14;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-box-column {
+    display: flex;
+}
+
+.contact-box-column-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-box-column-list-item {
+    display: flex;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.contact-box-column-list-item-img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.contact-box-column-list-item-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14px;
+}
+
+.contact-box-column-list-item-box-title {
+    font-size: 18px;
+    margin-bottom: 0px !important;
+}
+
+.contact-box-column-list-item-box-span {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Yeni eklenen stil */
+.contact-box-column-list-item-img img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-box-column-list-item-bg {
+    background-color: #FD7E14;
+    height: 36px;
+    width: 36px;
+    border-radius: 36px;
+}
+
+.problem-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.problem-btn {
+    background-color: #FD7E14;
+    color: white;
+    border-radius: 30px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none !important;
+}
+
+.map-frame {
+    margin: 48px 0;
+    width: 100%;
+    border: none !important;
+    height: 330px !important;
+}
+
+.page-buttons {
+    display: none !important;
+}
+
+.bank-information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.bank-information-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bank-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.bank-icon-bg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+}
+
+.bank-icon-bg > img {
+    height: 24px;
+    width: 16px;
+}
+
+.bank-details-title {
+    font-weight: bold;
+}
+
+.container-double {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 84px;
+    column-gap: 84px;
+}
+
+.business-details {
+    display: block;
+}
+
+.business-details-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 48px;
+}
+
+.business-details-single-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bdsi-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bdsi-text {
+    font-size: 12px;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+
+</style>
+
+<section class="contact-page">
+    <img src="https://www.upload.ee/image/16486476/contact-bg.png" alt="resme alternatif yazı" class="contact-banner" />
+    <div class="contact-box-container">
+        <div class="contact-box">
+            <h2 class="contact-box-title">Bir sorunuz mu var?</h2>
+            <span class="contact-box-text">Ürünler ve gönderim süreçleri hakkında soru ve sorunlarınız için bize ulaşabilirsiniz. Aşağıdaki formu doldurun.</span>
+            <form action="" class="contact-box-form">
+                <label for="firstname" class="contact-box-form-label">İsim</label>
+                <input type="text" class="contact-box-form-input" placeholder="İsmini gir" />
+                <label for="surname" class="contact-box-form-label">Soyisim</label>
+                <input type="text" class="contact-box-form-input" placeholder="Soyismini gir" />
+                <label for="email" class="contact-box-form-label">E-posta</label>
+                <input type="email" class="contact-box-form-input" placeholder="E-posta adresini gir" />
+                <input type="submit" value="Şimdi Gönder" class="contact-box-form-submit" />
+            </form>
+        </div>
+        <div class="contact-box cb-right">
+            <h2 class="contact-box-title">İletişimde kalalım</h2>
+            <span class="contact-box-text">İhtiyaçlarınız hakkında bizimle iletişime geçebilir. Her türlü konuda fikrimize danışabilirsiniz. Sizinle iletişim kurmak bizim için bir tutku.</span>
+            <div class="contact-box-column">
+                <ul class="contact-box-column-list">
+                    <li class="contact-box-column-list-item">
+                        <div class="contact-box-column-list-item-bg">
+                            <img alt="" class="contact-box-column-list-item-img"/>
+                        </div>
+                        <div class="contact-box-column-list-item-box">
+                        <h3 class="contact-box-column-list-item-box-title">Addres</h3>
+                        <span class="contact-box-column-list-item-box-span">Yağcılar Mahallesi, No: 13, Adapazarı/Sakarya</span></div>
+                    </li>
+                    <li class="contact-box-column-list-item">
+                        <div class="contact-box-column-list-item-bg">
+                            <img alt="" class="contact-box-column-list-item-img"/>
+                        </div>
+                        <div class="contact-box-column-list-item-box">
+                            <h3 class="contact-box-column-list-item-box-title">Telefon</h3>
+                            <span class="contact-box-column-list-item-box-span">+90 (216) 297 42 -14</span>
+                        </div>
+                    </li>
+                    <li class="contact-box-column-list-item">
+                        <div class="contact-box-column-list-item-bg">
+                            <img alt="" class="contact-box-column-list-item-img"/>
+                        </div>
+                        <div class="contact-box-column-list-item-box">
+                            <h3 class="contact-box-column-list-item-box-title">E-Posta</h3>
+                            <span class="contact-box-column-list-item-box-span">iletisim@baranpastry.com</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-double">
+        <div class="bank-information">
+            <div class="bank-information-box">
+                <div class="bank-icon-bg">
+                    <img src="https://www.upload.ee/image/16486533/zb.png" alt="" class="bank-icon">
+                </div>
+                <div class="bank-details">
+                    <span class="bank-details-title">TR60 0001 0021 8450 6408 6950 02</span>
+                    <span class="bank-details-number">MEK GIDA SAN. TİC. LTD. ŞTİ (ŞİRKET)</span>
+                </div>
+            </div>
+        </div>
+        <div class="problem-button">
+            <a href="https://www.baranpastry.com/hesabim/iade-ve-iptal-taleplerim">
+                <button class="problem-btn" type="button">ARIZA & İADE BAŞVURUSU YAP</button>
+            </a>
+        </div>
+        <div class="business-details">
+            <div class="business-details-box">
+                <div class="business-details-single-item">
+                    <span class="bdsi-title">Firma Resmi Adı</span>
+                    <span class="bdsi-text">Mek Gıda Sanayi ve Ticaret Limited Şirketi</span>
+                </div>
+                <div class="business-details-single-item">
+                    <span class="bdsi-title">Üretim Yerimiz</span>
+                    <span class="bdsi-text">2. OSB MAH. 2. Cadde No:5 Yeşilyurt/ MALATYA</span>
+                </div>
+                <div class="business-details-single-item">
+                    <span class="bdsi-title">Vergi Numarası</span>
+                    <span class="bdsi-text">6110074065</span>
+                </div>
+                <div class="business-details-single-item">
+                    <span class="bdsi-title">Sicil Numarası</span>
+                    <span class="bdsi-text">8740</span>
+                </div>
+    
+                <div class="business-details-single-item">
+                    <span class="bdsi-title">Vergi Dairesi</span>
+                    <span class="bdsi-text">Beydağı</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.1360430035666!2d38.28604207643279!3d38.34583317905944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40763152d84b5643%3A0x1f826f85444c63db!2s%C3%96zalper%2C%20Yenibahar%20Cd%20No%3A5%2C%2044090%20Malatya%20Merkez%2FMalatya!5e0!3m2!1str!2str!4v1712265433232!5m2!1str!2str" width="" height="" style="" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
